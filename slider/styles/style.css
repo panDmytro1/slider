@@ -1,0 +1,57 @@
+*{
+    font-family: sans-serif;
+}
+
+.slider {
+    width: 400px;
+    height: 200px;
+    border: solid 2px;
+    display: flex;
+    margin: auto;
+    overflow: hidden;
+}
+
+.content {
+    height: inherit;
+    position: relative;
+    display: flex;
+
+    transition: all ease 1s;
+}
+
+.content div {
+    width: 400px;
+    height: 100%;
+}
+
+.content div button {
+    width: 30%;
+    height: 50px;
+    background-color: white;
+    margin: 70px 35%;
+
+}
+
+.box_1{
+    background-color: red;
+}
+
+.box_2{
+    background-color: yellow;
+}
+
+.box_3{
+    background-color: blue;
+}
+
+.box_4{
+    background-color: green;
+}
+
+.box_5{
+    background-color: pink;
+}
+
+.box_6{
+    background-color: lawngreen;
+}
